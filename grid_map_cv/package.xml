@@ -12,6 +12,7 @@
   <depend>grid_map_core</depend>
   <depend>cv_bridge</depend>
   <depend>filters</depend>
+  <depend>eigen_conversions</depend>
   <export>
     <filters plugin="${prefix}/filter_plugins.xml" />
   </export>

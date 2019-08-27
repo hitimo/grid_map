@@ -41,6 +41,10 @@ catkin_package(
     ${PROJECT_NAME}-extras.cmake
 )
 
+find_package(catkin REQUIRED COMPONENTS
+  eigen_conversions
+)
+
 ###########
 ## Build ##
 ###########

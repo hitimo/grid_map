@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   grid_map_core
   cv_bridge
   filters
+  eigen_conversions
 )
 
 find_package(OpenCV REQUIRED
@@ -36,6 +37,7 @@ catkin_package(
   DEPENDS
     OpenCV
 )
+
 
 ###########
 ## Build ##

@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   rosbag
   tf
   visualization_msgs
+  eigen_conversions
 )
 
 ## System dependencies are found with CMake's conventions
